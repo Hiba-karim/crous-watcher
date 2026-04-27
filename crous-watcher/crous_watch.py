@@ -10,15 +10,18 @@ from email.message import EmailMessage
 
 URLS = [
     # Mets ici tes URLs de recherche CROUS filtrées
-    "https://trouverunlogement.lescrous.fr/tools/42/search?bounds=2.169302_48.9205991_2.234232_48.8742291",
-    "https://trouverunlogement.lescrous.fr/tools/42/search?bounds=2.2710281_48.9036389_2.3037934_48.8856378",
-    "https://trouverunlogement.lescrous.fr/tools/42/search?bounds=2.2475775_48.9510806_2.3284911_48.9126465",
-    "https://trouverunlogement.lescrous.fr/tools/42/search?bounds=2.2456228_48.8983695_2.2844588_48.8740806",
-    "https://trouverunlogement.lescrous.fr/tools/42/search?bounds=2.0699384_48.82861_2.1683504_48.7792297",
-    "https://trouverunlogement.lescrous.fr/tools/42/search?bounds=1.4462445_49.241431_3.5592208_48.1201456",
-    "https://trouverunlogement.lescrous.fr/tools/42/search?bounds=2.1695755_48.7188772_2.209699_48.6755091",
-    "https://trouverunlogement.lescrous.fr/tools/42/search?bounds=2.1997654_48.8827632_2.2367935_48.8593914",
-    "https://trouverunlogement.lescrous.fr/tools/42/search?bounds=2.224122_48.902156_2.4697602_48.8155755"]
+    "https://trouverunlogement.lescrous.fr/tools/42/search?bounds=2.1807546_48.8616453_2.225689_48.8263653&locationName=Saint-Cloud+%2892210%29",
+    "https://trouverunlogement.lescrous.fr/tools/42/search?bounds=2.222799_48.853442_2.2627757_48.8214969&locationName=Boulogne-Billancourt+%2892100%29",
+    "https://trouverunlogement.lescrous.fr/tools/42/search?bounds=2.1997654_48.8827632_2.2367935_48.8593914&locationName=Suresnes+%2892150%29",
+    "https://trouverunlogement.lescrous.fr/tools/42/search?bounds=2.169302_48.9205991_2.234232_48.8742291&locationName=Nanterre+%2892000%29",
+    "https://trouverunlogement.lescrous.fr/tools/42/search?bounds=2.2224557_48.8956658_2.2543627_48.8695071&locationName=Puteaux+%2892800%29",
+    "https://trouverunlogement.lescrous.fr/tools/42/search?bounds=2.2357127_48.8346266_2.2893877_48.813264&locationName=Issy-les-Moulineaux+%2892130%29",
+    "https://trouverunlogement.lescrous.fr/tools/42/search?bounds=2.2026567_48.8239813_2.2550087_48.7815769&locationName=Meudon",
+    "https://trouverunlogement.lescrous.fr/tools/42/search?bounds=2.0699384_48.82861_2.1683504_48.7792297&locationName=Versailles+%2878000%29",
+    "https://trouverunlogement.lescrous.fr/tools/42/search?bounds=2.1758695_48.8209276_2.2060365_48.7972296&locationName=Chaville+%2892370%29",
+    "https://trouverunlogement.lescrous.fr/tools/42/search?bounds=2.1580547_48.8159419_2.1869771_48.7875442&locationName=Viroflay+%2878220%29",
+    "https://trouverunlogement.lescrous.fr/tools/42/search?bounds=2.1666593_48.8561246_2.2055225_48.8377372&locationName=Garches+%2892380%29",
+    "https://trouverunlogement.lescrous.fr/tools/42/search?bounds=2.1456536_48.851648_2.1826039_48.8213777&locationName=Vaucresson+%2892420%29"]
 
 STATE_FILE = "known_accommodations.json"
 
